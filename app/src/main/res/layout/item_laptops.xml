@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        >
+        <ImageView
+            android:id="@+id/imageView_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            />
+        <TextView
+            android:id="@+id/textView_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MackBook Air"
+            android:textSize="20sp"
+            android:layout_marginVertical="5dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/text_View_descr"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="MagSafe, the M2 chip, up to 24GB of memory"
+            />
+        <TextView
+            android:id="@+id/textView_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GRAY"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/textView_Price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1000 $"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
