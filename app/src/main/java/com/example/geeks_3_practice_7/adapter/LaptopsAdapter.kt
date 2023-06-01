@@ -2,6 +2,7 @@ package com.example.geeks_3_practice_7.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.appcompat.view.menu.MenuView.ItemView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.geeks_3_practice_7.Laptop

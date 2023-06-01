@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -13,11 +13,13 @@
         android:gravity="center_horizontal"
         android:layout_marginStart="30dp"
         android:layout_marginTop="10dp"
+        android:background="@drawable/linear_layout_bg"
         >
         <ImageView
             android:id="@+id/imageView_image"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
             />
         <TextView
             android:id="@+id/textView_title"
@@ -30,9 +32,10 @@
             />
         <TextView
             android:id="@+id/text_View_descr"
-            android:layout_width="150dp"
+            android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:text="MagSafe, the M2 chip, up to 24GB of memory"
+            android:textSize="12dp"
             />
         <TextView
             android:id="@+id/textView_color"
@@ -47,6 +50,16 @@
             android:layout_height="wrap_content"
             android:text="1000 $"
             android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/pink"
+            />
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="100dp"
+            android:layout_height="5dp"
+            android:background="@color/pink"
+            android:layout_marginBottom="10dp"
+            android:visibility="invisible"
             />
     </LinearLayout>
 

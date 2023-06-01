@@ -2,14 +2,17 @@ package com.example.geeks_3_practice_7
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.geeks_3_practice_7.adapter.LaptopsAdapter
 import com.example.geeks_3_practice_7.databinding.ActivityMainBinding
+import com.example.geeks_3_practice_7.databinding.ItemLaptopsBinding
 
 
 class MainActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityMainBinding
+    lateinit var bindingLaptops : ItemLaptopsBinding
 
     var arrayList : ArrayList<Laptop> = ArrayList()
 
